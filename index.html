@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>WaWu 的主页</title>
+    <link rel="stylesheet" href="css/gobal.css">
+</head>
+
+<body>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/main.js"></script>
+    <!--导航栏-->
+    <nav class="column">
+        <h1>WaWu 的主页</h1>
+        <ul id="nav-ul">
+            <li id="about-me">关于我</li>
+            <li id="some-gossip">一些闲话</li>
+            <li id="some-image">一些图片</li>
+            <li id="my-url">一些链接</li>
+        </ul>
+    </nav>
+    <div id="main">
+        <!--左侧时间等显示栏-->
+        <div id="left">
+            <div id="time">
+                <span id="time-time"></span>
+                <span id="time-date"></span>
+                <span id="time-greet"></span>
+            </div>
+            <span id="time-text">与你的日常，就是奇迹~</span>
+        </div>
+        <!--右侧未打开任何栏目时的文字-->
+        <div id="right">
+            <div id="right-nonetext" class="column">
+                <p>欢迎欢迎~这里是哇呜的主页</p>
+                <p>点击上方导航栏的任意一个栏目按钮，即可查看栏目</p>
+            </div>
+            <!--右侧关于我栏目-->
+            <div id="personal-data" class="column">
+                <img src="resources/img/personal-data-img.jpg" alt="头像">
+                <h2>Hi~ I'm WaWu !</h2>
+                <h3>你好~ 我是哇呜！</h3>
+                <ul>
+                    <li>全名：哇呜呜呜</li>
+                    <li>性别：男生！</li>
+                    <li>生日：2011.02.12 今年14岁</li>
+                </ul>
+                <div id="favorite">
+                    <div id="favorite-things" class="column">爱好：
+                        <ul>
+                            <li>打游戏</li>
+                            <li>听音乐</li>
+                            <li>写代码</li>
+                            <li>剪视频</li>
+                            <li>折腾电脑</li>
+                        </ul>
+                    </div>
+                    <div id="favorite-other" class="column">
+                        <ul>
+                            <li>最喜欢的游戏：《蔚蓝档案》</li>
+                            <li>喜欢的游戏：Counter Strike 2，Minecraft，Red Dead Redemption 2等</li>
+                            <li>最喜欢的二次元角色（老婆）：砂狼白子</li>
+                            <li>最喜欢的作曲者：PIKASONIC</li>
+                            <li>喜欢的作曲者：Misukiyo,Nor,KARUT,PHONO RECORDS,Nqsi</li>
+                            <li>梦想：成为一名程序猿</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
