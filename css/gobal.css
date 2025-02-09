@@ -66,6 +66,8 @@ body{
     background-attachment: fixed;
     background-size: cover;
     overflow: hidden;
+    display: block;
+    margin: 8px;
 }
 .column{
     background-color: rgba(0, 0, 0, 0.126);
